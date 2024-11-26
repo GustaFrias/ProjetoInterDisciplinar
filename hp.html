@@ -51,10 +51,7 @@
                         Vale do Silício e está preservado até hoje, inclusive com algumas ferramentas originais.
                         Infelizmente, ela não é aberta ao público.
                         Em busca de expansão, a empresa encara um obstáculo chamado Segunda Guerra Mundial: Bill
-                        vai servir no exército até 1947 e Dave fica sozinho no comando por seis anos. Quando o primeiro
-                        retorna, o pequeno negócio vira uma corporação, com Dave na presidência e Bill de vice.
-                        Nesse tempo, a empresa continua no campo de áudio, mas também faz radares e até componentes
-                        para armas. Em 1957, vem a oferta pública de ações e uma nova casa no Stanford Research Park.</div>
+                        vai servir no exército até 1947 e Dave fica sozinho no comando por seis anos.</div>
                 </div>
 
                 <div class="left-item">
@@ -82,11 +79,7 @@
                         O primeiro computador é de 1980, o HP-85. Ele era poderoso e suportava mais periféricos que os
                         rivais. Já o primeiro de mão foi o HP-75, que tinha até alarme e editor de texto, igual aos palmtops de
                         10 anos depois.
-                        E as inovações da HP nessa década não param. Ela lançou um desktop para cuidar de servidores, um
-                        PC com touchscreen e a arquitetura RISC para processadores.
-                        Impresso na história
-                        A gente entende: se você fala em HP, é bem provável que venha na sua cabeça as impressoras da
-                        marca. </div>
+                    </div>
                 </div>
 
                 <div class="left-item">
@@ -140,12 +133,6 @@
                         e o desenvolvimento do próprio WebOS não duraram muito. O segmento foi encerrado em dois
                         meses, com o sistema sendo vendido para a LG em 2013. Ele foi bastante remodelado e otimizado
                         para ser usado em smart TVs.
-                        A HP se aventurou nos smartphones de forma tímida — e não dá para dizer que ela se arrepende,
-                        mas isso pode fazer falta para a marca hoje em dia. Dá para destacar a variada linha iPAQ e também
-                        o HP Falcon. Mais recentemente ela apostou na família Slate de tablets e no HP Elite X3, um
-                        aparelho de 6 polegadas com Windows 10 Mobile lançado no fim de 2016. A empresa hoje atua
-                        em diversas áreas, principalmente por causa das compras bastante variadas. E claro que ela ainda
-                        vende impressoras, scanners, calculadoras, câmeras digitais e PCs.
                     </div>
                 </div>
                 <div class="left-item">
@@ -156,8 +143,7 @@
                         Os produtos estão armazenados na tabela Produto, que inclui informações como nome, categoria, preço, quantidade em estoque, validade e fornecedor. Essa tabela também se conecta à tabela Fornecedor, que contém os dados dos fornecedores responsáveis pelo abastecimento dos produtos, como CNPJ, nome, telefone e endereço.                       
                         A tabela Categoria_Produto organiza os produtos em grupos, facilitando a categorização e consulta. Cada produto pertence a uma categoria, e essa tabela pode incluir dados como o nome da categoria, descrição, status e uma imagem associada.                       
                         Os pagamentos realizados pelos clientes são registrados na tabela Pagamento, que contém informações como data, valor, forma de pagamento e um código de autorização. Essa tabela é vinculada aos pedidos, indicando como cada transação foi realizada.                    
-                        A tabela Funcionario armazena os dados dos colaboradores da empresa, como nome, cargo, departamento e data de admissão. Esses funcionários podem estar associados a pedidos ou serviços de suporte. A tabela Servico_Suporte gerencia os registros de suporte fornecido aos clientes, incluindo o tipo de serviço, descrição do problema, data de solicitação, status e prioridade.                        
-                        Por fim, o modelo define conexões entre as tabelas para assegurar a integridade referencial. Por exemplo, um cliente que realiza um pedido deve existir na tabela Cliente, e o pedido pode conter apenas produtos listados na tabela Produto. O diagrama é projetado para fornecer uma visão abrangente do relacionamento entre os diferentes elementos do sistema, otimizando o gerenciamento de informações e permitindo consultas eficientes.</div>
+                        A tabela Funcionario armazena os dados dos colaboradores da empresa, como nome, cargo, departamento e data de admissão. Esses funcionários podem estar associados a pedidos ou serviços de suporte. A tabela Servico_Suporte gerencia os registros de suporte fornecido aos clientes, incluindo o tipo de serviço, descrição do problema, data de solicitação, status e prioridade. </div>
                 </div>
                 <div class="left-item">
                     <div id="BD1" class="titulo grande">DER</div>
@@ -168,7 +154,7 @@
                         A entidade Item_Pedido funciona como um detalhamento de cada pedido, especificando quais produtos foram adquiridos, a quantidade de cada um e os preços unitários. Essa tabela é intermediária, conectando **Pedido** e **Produto** em uma relação de muitos-para-muitos (n, n).                       
                         Os Funcionarios registrados no sistema são responsáveis pela realização dos pedidos. Eles têm atributos como nome, cargo, departamento e data de admissão. Cada pedido é realizado por um único funcionário, mas um funcionário pode estar associado a múltiplos pedidos ao longo do tempo.                       
                         Por fim, a entidade Pagamento armazena as transações financeiras associadas aos pedidos. Um pedido pode ter apenas um pagamento associado, mas o pagamento é obrigatório para concluir a operação.                        
-                        Esse DER é útil para descrever um sistema robusto de gerenciamento de vendas, detalhando as relações entre as entidades e garantindo que o modelo atenda às regras de negócio necessárias para o funcionamento do sistema.</div>
+                        </div>
                 </div>
             </div>
 
